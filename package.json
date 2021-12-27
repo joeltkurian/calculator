@@ -9,6 +9,7 @@
     "typescript": "^4.5.4"
   },
   "scripts":{
-    "test": "jest calc.spec.ts"
+    "test": "jest calc.spec.ts",
+    "run": "ts-node index.ts"
   }
 }
