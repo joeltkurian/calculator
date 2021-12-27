@@ -11,6 +11,6 @@ describe("calculator tests", ()=>{
     });
     it("Should multiply 5*5", ()=>{
         const val= multiply(5,5);
-        expect(val).toBe(2);
+        expect(val).toBe(25);
     });
 })
