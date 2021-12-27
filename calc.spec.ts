@@ -14,3 +14,8 @@ describe("calculator tests", ()=>{
         expect(val).toBe(25);
     });
 })
+
+describe("Accessing Environment Variables", ()=>{
+    const PASSWORD = process.env.DB_PASSWORD;
+    expect(PASSWORD).toBeTruthy();
+})
